@@ -161,7 +161,7 @@ public class DemoTest {
 
 ### 3.简单UML
 
-
+![](https://github.com/android-cjj/android-design-patterns/blob/master/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F(Builder%20Pattern)/Nijia.png?raw=true)
 
 
 
