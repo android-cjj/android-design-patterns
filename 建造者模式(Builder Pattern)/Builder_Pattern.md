@@ -5,7 +5,9 @@
 
 android中我们常见的用到它的就有Notification和AlertDialog等，拿Dialog来说，你项目中可能需要的对话框的样式多种多样，
 如果你用这种形式创建
+
 Eg:
+
 Dialog(String title)
 
 Dialog(String title,String message)
