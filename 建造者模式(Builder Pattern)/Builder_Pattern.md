@@ -1,11 +1,24 @@
-## 1.简单吹吹Builder
+## 1.简单吹吹
 
-###  模式的定义
+###  Builder模式
 将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。
 
-### 模式的使用场景
-1. 相同的方法，不同的执行顺序，产生不同的事件结果时；   
-2. 多个部件或零件，都可以装配到一个对象中，但是产生的运行结果又不相同时；
-3. 产品类非常复杂，或者产品类中的调用顺序不同产生了不同的效能，这个时候使用建造者模式非常合适；
+android中我们常见的用到它的就有Notification和AlertDialog等，拿Dialog来说，你项目中可能需要的对话框的样式多种多样，
+如果你用这种形式创建
+Eg:
+Dialog(String title)
 
-没错了，如果你觉得以上的言语很熟悉，恭喜你，你的感觉不错，我抄别人的，给个[原文链接](https://github.com/simple-android-framework/android_design_patterns_analysis/blob/master/builder/mr.simple/readme.md)，免得被打，啊哈哈
+Dialog(String title,String message)
+
+Dialog(String title,String message,String btnOkString)
+
+Dialog(String title,String message,String btnOkString,String btnCancelString)
+
+这种方法很有效，但是它的缺点很多。我们需要写多种参数组合的构造函数，而且其中还需要设置默认参数值，呵呵，这是一件苦差事，JJ做不到。其次，灵活性也不高，such as，Dialog("cjj", null, "ok")，显然message就没有意义，但是你要符合Java多态的特效，所以必须这样写了。
+
+
+
+
+
+
+
