@@ -16,7 +16,7 @@ Dialog(String title,String message,String btnOkString)
 
 Dialog(String title,String message,String btnOkString,String btnCancelString)
 
-这种方法很有效，但是它的缺点很多。我们需要写多种参数组合的构造函数，而且其中还需要设置默认参数值，呵呵，这是一件苦差事，JJ做不到。其次，灵活性也不高，such as，Dialog("cjj", null, "ok")，显然message就没有意义，但是你要符合Java多态的特效，所以必须这样写了,后期维护你都会觉得蛋疼
+这种方法很有效，但是它的缺点很多。我们需要写多种参数组合的构造函数，而且其中还需要设置默认参数值，呵呵，这是一件苦差事，JJ做不到。其次，灵活性也不高，such as，Dialog("cjj", null, "ok")，显然message就没有意义，但是你要符合Java多态的特效，所以必须这样写了,后期维护你都会觉得蛋疼，所以android用了builder模式。
 
 ### 2.简单Demo
 ```java
@@ -157,6 +157,11 @@ public class DemoTest {
 }
 
 ```
+以上的例子可能不符合场景，啊哈哈，个人爱好而已，你可以把他换成创建汽车需要各个组件 、组装电脑需要各个配置等零件这些比较符合的demo,呵呵，原理是一样的，学以致用就可以了。
+
+### 3.简单UML
+
+
 
 
 
