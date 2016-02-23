@@ -13,7 +13,7 @@ android-design-patterns
 
 * 行为型模式：模版方法模式、命令模式、迭代器模式、观察者模式、中介者模式、备忘录模式、解释器模式（Interpreter模式）、状态模式、策略模式、职责链模式(责任链模式)、访问者模式。
 
-####（1）建造者模式(Builder Pattern)
+####（1）[建造者模式(Builder Pattern)](https://github.com/android-cjj/android-design-patterns/blob/master/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F(Builder%20Pattern)/Builder_Pattern.md)
 
 
 
