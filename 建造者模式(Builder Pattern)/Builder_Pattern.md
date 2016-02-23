@@ -163,7 +163,10 @@ public class DemoTest {
 
 ![](https://github.com/android-cjj/android-design-patterns/blob/master/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F(Builder%20Pattern)/Nijia.png?raw=true)
 
+### 4.简单总结
+一般来说，如果对象的建造很复杂，那么请用工厂模式；如果对象的建造更复杂，那么请用建造者模式。
 
+（这不是教程，只是个人笔记而已，所以随意了点，看到的朋友见谅，啊哈哈哈）
 
 
 
