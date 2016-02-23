@@ -16,7 +16,7 @@ Dialog(String title,String message,String btnOkString)
 
 Dialog(String title,String message,String btnOkString,String btnCancelString)
 
-这种方法很有效，但是它的缺点很多。我们需要写多种参数组合的构造函数，而且其中还需要设置默认参数值，呵呵，这是一件苦差事，JJ做不到。其次，灵活性也不高，such as，Dialog("cjj", null, "ok")，显然message就没有意义，但是你要符合Java多态的特效，所以必须这样写了,后期维护你都会觉得蛋疼，所以android用了builder模式。
+这种方法很有效，但是它的缺点很多。我们需要写多种参数组合的构造函数，而且其中还需要设置默认参数值，呵呵，这是一件苦差事，JJ做不到。其次，灵活性也不高，例如 ： Dialog("cjj", null, "ok")，显然message就没有意义，但是你要符合Java多态的特效，所以必须这样写了,后期维护你都会觉得蛋疼，所以android用了builder模式。
 
 ### 2.简单Demo
 ```java
@@ -162,6 +162,8 @@ public class DemoTest {
 ### 3.简单UML
 
 ![](https://github.com/android-cjj/android-design-patterns/blob/master/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F(Builder%20Pattern)/Nijia.png?raw=true)
+
+
 
 
 
