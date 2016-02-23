@@ -5,6 +5,7 @@ android-design-patterns
 
 ![](http://imgsrc.baidu.com/forum/w%3D580/sign=32b510bbb13533faf5b6932698d2fdca/ee58e1fe9925bc31770d982d5edf8db1ca137064.jpg)
 
+ <img src="http://imgsrc.baidu.com/forum/w%3D580/sign=32b510bbb13533faf5b6932698d2fdca/ee58e1fe9925bc31770d982d5edf8db1ca137064.jpg" width="290" height="485" />
 
 ####设计模式分为三种类型，共23种。
 
